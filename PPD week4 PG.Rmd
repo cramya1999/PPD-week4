@@ -1,0 +1,65 @@
+---
+title: "PPD week4 PG"
+author: "RamyaChilakala"
+date: "07/11/2020"
+output: html_document
+---
+
+### Developing Data Products week 4 PG Assignment
+
+- URL: *https://github.com/cramya1999/PPD-week4*
+- The data used for the ppt is to be find below and first what we do in this Project is that: First I have created a Shiny application and sent it to Rstudio's servers, Second slidify is used to present the results that are to be projected on the screen in the form of PPT.
+
+### Find all details here
+URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shiny-application-and-reproducible-pitch*
+
+---
+
+
+
+> The given assignment is about mostly using of shiny app using data science. the given data is used by me to interperd the details of manual and automobile cars in which is better in mg cars.Shiny app is is helpful in making my assignment a success. Road tests are been performed and those test results are considered in interpreting the data.
+### Source
+>  In the regression multiple model Velleman and Henderson in nineteen eighty one they interactively performed.
+```{r}
+library(datasets)
+head(mtcars, 1)
+```
+---
+
+
+**the data frame given below contains the given 32 observations on 11 variables.**
+
+| Index | Field | Detail |
+------- | ----- | ------ |
+| [, 1] | mpg | Miles/(US) gallon |
+| [, 2]  | cyl | cylinders count in total |
+| [, 3]	| disp | Displacement disp |
+| [, 4]	| hp | GHP |
+| [, 5]	| drat | axle rear ratio |
+| [, 6]	| wt | W(lb/1000) |
+| [, 7]	| qsec | quarter mile time |
+| [, 8]	| vs | V/S |
+| [, 9]	| am | Transmission of the car using cylinder (0 = automatic, 1 = manual) |
+| [,10]	| gear | gears count in total |
+| [,11]	| carb | carbs count in total |
+
+---
+
+## Analysis - Main Code
+
+```r
+  abcef <- reactive({
+    paste("mpg ~", "as.integer(", input$variable, ")")  })
+  
+  zdc <- reactive({
+    lm(as.formula(abcef()), data=mpgData)  })
+  ...
+  output$zdc <- renderPrint({
+    summary(zdc()) })
+  
+  output$mpgPlot <- renderPlot({
+    with(mpgData, {
+      plot(as.formula(abcef()))
+      abline(zdc(), col=2)
+    })  })
+```
