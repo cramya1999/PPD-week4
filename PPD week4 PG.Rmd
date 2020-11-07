@@ -7,7 +7,8 @@ output: html_document
 
 
 - URL: *https://github.com/cramya1999/PPD-week4*
-- The data used for the ppt is to be find below and first what we do in this Project is that: First I have created a Shiny application and sent it to Rstudio's servers, Second slidify is used to present the results that are to be projected on the screen in the form of PPT.
+- The data used for the ppt is to be find below and first what we do in this Project is that: First I have created a Shiny application and sent it to Rstudio's servers, Second slidify is used to present the results that are to be projected on the screen in the form of PPT•	The seminar topic must be relevant to the Electronics and Communication course but from outside the coverage of regular theory subjects included in the curriculum. The interdisciplinary topics may be permitted, if there is relevance with E&C course.
+I have taken a lot of time to understand the shiny app and how it is used manually. I find is productive and useful in making my projuct acchieve appropriate resits and understandable o/p.
 
 URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shiny-application-and-reproducible-pitch*
 
@@ -15,7 +16,10 @@ URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shi
 
 
 
-> The given assignment is about mostly using of shiny app using data science. the given data is used by me to interperd the details of manual and automobile cars in which is better in mg cars.Shiny app is is helpful in making my assignment a success. Road tests are been performed and those test results are considered in interpreting the data.
+> The given data is used by me to interperd the details of manual and automobile cars in which is better3.	Soft copy of the seminar report in pdf format should be submitted to the respective faculty. 
+4.	format for naming the report. sec_regno (Example: D_16090321) 
+5.	Presentation of the seminar should be done using Microsoft team having 10 to 15 slides and will be of 15 minute duration.
+ in mg cars.Shiny app is is helpful in making my assignment a success. Road tests are been performed and those test results are considered in interpreting the data.
 >  In the regression multiple model Velleman and Henderson in nineteen eighty one they interactively performed.
 ```{r}
 library(datasets)
@@ -27,7 +31,6 @@ head(mtcars, 1)
 
 | Index | Field | Detail |
 ------- | ----- | ------ |
-| [, 1] | mpg | Miles/(US) gallon |
 | [, 2]  | cyl | cylinders count in total |
 | [, 3]	| disp | Displacement disp |
 | [, 4]	| hp | GHP |
