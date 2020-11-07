@@ -5,12 +5,10 @@ date: "07/11/2020"
 output: html_document
 ---
 
-### Developing Data Products week 4 PG Assignment
 
 - URL: *https://github.com/cramya1999/PPD-week4*
 - The data used for the ppt is to be find below and first what we do in this Project is that: First I have created a Shiny application and sent it to Rstudio's servers, Second slidify is used to present the results that are to be projected on the screen in the form of PPT.
 
-### Find all details here
 URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shiny-application-and-reproducible-pitch*
 
 ---
@@ -18,7 +16,6 @@ URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shi
 
 
 > The given assignment is about mostly using of shiny app using data science. the given data is used by me to interperd the details of manual and automobile cars in which is better in mg cars.Shiny app is is helpful in making my assignment a success. Road tests are been performed and those test results are considered in interpreting the data.
-### Source
 >  In the regression multiple model Velleman and Henderson in nineteen eighty one they interactively performed.
 ```{r}
 library(datasets)
@@ -27,7 +24,6 @@ head(mtcars, 1)
 ---
 
 
-**the data frame given below contains the given 32 observations on 11 variables.**
 
 | Index | Field | Detail |
 ------- | ----- | ------ |
@@ -45,7 +41,6 @@ head(mtcars, 1)
 
 ---
 
-## Analysis - Main Code
 
 ```r
   abcef <- reactive({
